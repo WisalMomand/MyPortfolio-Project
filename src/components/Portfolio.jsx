@@ -85,10 +85,10 @@ export default function Portfolio() {
             </p>
 
             <div className="buttons">
-              <a href="https://github.com/" className="btn-primary">
+              <a href="https://github.com/WisalMomand" className="btn-primary">
                 GITHUB
               </a>
-              <a href="https://linkedin.com/" className="btn-secondary">
+              <a href="https://www.linkedin.com/in/muhammad-wisal-48792536b/" className="btn-secondary">
                 LINKEDIN
               </a>
             </div>
