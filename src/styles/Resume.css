@@ -1,0 +1,195 @@
+.resume-section {
+  background-color: #000;
+  color: #fff;
+  padding: clamp(60px, 10vw, 100px) 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume-header {
+  position: relative;
+  margin-bottom: clamp(30px, 5vw, 50px);
+}
+
+.resume-title {
+  font-size: clamp(2rem, 6vw, 4rem);
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.resume-background-text {
+  position: absolute;
+  font-size: clamp(4rem, 15vw, 10rem);
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.03);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.resume-description {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  line-height: 1.9;
+  color: #aaa;
+  margin: 0 auto clamp(40px, 5vw, 80px);
+  max-width: 1000px;
+  text-align: center;
+}
+
+/* Education Section */
+.education-section {
+  margin-top: clamp(40px, 5vw, 80px);
+}
+
+.education-title {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: clamp(15px, 2vw, 20px);
+}
+
+.education-divider {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ffc107, transparent);
+  margin: 0 auto clamp(40px, 5vw, 60px);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(20px, 3vw, 30px);
+  margin-bottom: clamp(40px, 5vw, 60px);
+}
+
+.education-card {
+  background-color: #1a1a1a;
+  padding: clamp(20px, 3vw, 40px) clamp(20px, 3vw, 30px);
+  border-radius: 8px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(255, 193, 7, 0.2);
+}
+
+.education-year {
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: bold;
+  color: #ffc107;
+  margin-bottom: 15px;
+}
+
+.education-degree {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.education-institute {
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.education-grade {
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  color: #aaa;
+  margin: 0;
+}
+
+/* Download CV Button */
+.download-cv-container {
+  margin-top: clamp(30px, 5vw, 60px);
+}
+
+.download-cv-btn {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #000;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  font-weight: bold;
+  padding: clamp(12px, 2vw, 18px) clamp(30px, 4vw, 50px);
+  border-radius: 50px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-cv-btn:hover {
+  background-color: #ffcd39;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: clamp(15px, 3vw, 20px);
+  }
+
+  .resume-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+
+  .resume-background-text {
+    font-size: clamp(3rem, 10vw, 6rem);
+  }
+
+  .resume-description {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-title {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .resume-background-text {
+    font-size: clamp(2rem, 8vw, 4rem);
+  }
+
+  .education-title {
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+  }
+
+  .education-year {
+    font-size: clamp(1rem, 3vw, 1.3rem);
+  }
+
+  .education-degree {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+  }
+
+  .education-institute {
+    font-size: clamp(0.7rem, 2vw, 0.8rem);
+  }
+
+  .education-grade {
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+  }
+
+  .download-cv-btn {
+    padding: clamp(10px, 2vw, 15px) clamp(25px, 4vw, 40px);
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+  }
+}
