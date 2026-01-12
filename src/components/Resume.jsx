@@ -24,13 +24,13 @@ performing CRUD operations, and optimizing database queries for performance
    aligned with modern web standards.
         </p>
 
-        {/* Education Section */}
+       
         <div className="education-section">
           <h3 className="education-title">Education</h3>
           <div className="education-divider"></div>
           
           <div className="education-grid">
-            {/* Bachelor Degree Card */}
+          
             <div className="education-card">
               <h4 className="education-year">2021-2025</h4>
               <h5 className="education-degree">BS in Computer Science</h5>
@@ -38,7 +38,7 @@ performing CRUD operations, and optimizing database queries for performance
               <p className="education-grade">Grade: First class distinction.</p>
             </div>
 
-            {/* Higher Secondary Card */}
+           
             <div className="education-card">
               <h4 className="education-year">2019-2021</h4>
               <h5 className="education-degree">Higher Secondary School</h5>
@@ -47,9 +47,9 @@ performing CRUD operations, and optimizing database queries for performance
             </div>
           </div>
 
-          {/* Download CV Button */}
+        
  <a
-  href="/Muhammad_wisal_Resume.pdf"
+  href="/Muhammad_Wisal_MERN_Stack_Developer_CV.pdf"
   download
   target="_blank"
   rel="noopener noreferrer"

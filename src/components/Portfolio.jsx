@@ -109,22 +109,22 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* ABOUT */}
+     
       <section id="about">
         <AboutMe />
       </section>
 
-      {/* RESUME */}
+     
       <section id="resume" className="section-placeholder">
         <Resume />
       </section>
 
-      {/* PROJECTS */}
+     
       <section id="projects" className="section-placeholder">
         <Project />
       </section>
 
-      {/* CONTACT */}
+     
       <section id="contact" className="section-placeholder">
         <Contact />
       </section>

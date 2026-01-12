@@ -6,7 +6,7 @@ export default function Contact() {
     {
       icon: '📍',
       title: 'ADDRESS',
-      content: 'Islamabad, Pakistan',
+      content: 'Lahore, Pakistan',
       link: null
     },
     {
@@ -18,8 +18,8 @@ export default function Contact() {
     {
       icon: '✉️',
       title: 'EMAIL ADDRESS',
-      content: 'muhammadwisaldev@gmail.com',
-      link: 'mailto:muhammadwisaldev@gmail.com'
+      content: 'muhammadwisal.dev@gmail.com',
+      link: 'mailto:muhammadwisal.dev@gmail.com'
     },
     {
       icon: '🌐',
@@ -85,14 +85,14 @@ export default function Contact() {
           ))}
         </div>
 
-        {/* Have a Question Section */}
+        
         <div className="question-section">
           <h3 className="question-title">
             Have a Question? <a href="#contact-form" className="click-here-btn">CLICK HERE</a>
           </h3>
         </div>
 
-        {/* Social Media Links */}
+        
         <div className="social-section">
           <p className="social-title">Find me on</p>
           <div className="social-links">
@@ -119,7 +119,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Footer Copyright */}
+       
         <div className="footer-copyright">
          <p className="copyright-text">
            &copy; {new Date().getFullYear()} Muhammad Wisal. All rights reserved.

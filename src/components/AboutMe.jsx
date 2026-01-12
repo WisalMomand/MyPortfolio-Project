@@ -29,7 +29,7 @@ export default function AboutMe() {
                 <span className="info-label">Experience:</span> 1+ Year
               </div>
               <div className="info-item">
-                <span className="info-label">Address:</span> Islamabad, Pakistan
+                <span className="info-label">Address:</span> Lahore, Pakistan
               </div>
 
               {/* SKILLS */}
