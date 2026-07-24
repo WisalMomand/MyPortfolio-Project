@@ -23,13 +23,13 @@ export default function AboutMe() {
                 <span className="info-label">Name:</span> Muhammad Wisal
               </div>
               <div className="info-item">
-                <span className="info-label">Job Role:</span> MERN Stack Developer
+                <span className="info-label">Job Role:</span> Full Stack Developer
               </div>
               <div className="info-item">
-                <span className="info-label">Experience:</span> 1+ Year
+                <span className="info-label">Experience:</span> 2+ Year
               </div>
               <div className="info-item">
-                <span className="info-label">Address:</span> Lahore, Pakistan
+                <span className="info-label">Address:</span> Islamabad, Pakistan
               </div>
 
               {/* SKILLS */}
@@ -68,7 +68,7 @@ export default function AboutMe() {
               </h2>
 
               <p className="about-description">
-                MERN Stack Developer with hands-on experience in building
+                Full Stack Developer with hands-on experience in building
                 full-stack web applications using MongoDB, Express.js, React.js,
                 and Node.js. Experienced in developing scalable RESTful APIs,
                 creating responsive user interfaces, and integrating frontend
@@ -79,14 +79,14 @@ export default function AboutMe() {
               <div className="detail-row">
                 <span className="detail-label">Profile:</span>
                 <span className="detail-value">
-                  Full-Stack MERN Developer
+                  Full-Stack Developer
                 </span>
               </div>
 
               <div className="detail-row">
                 <span className="detail-label">Tech Stack:</span>
                 <span className="detail-value">
-                  MongoDB, Express.js, React.js, Node.js
+                  MongoDB, Express.js, React.js, Node.js,Core PHP
                 </span>
               </div>
 
@@ -100,7 +100,7 @@ export default function AboutMe() {
               <div className="detail-row">
                 <span className="detail-label">Frontend Skills:</span>
                 <span className="detail-value">
-                  React Hooks, Component Design, Tailwind CSS, Responsive UI
+                  React Hooks, Component Design, Tailwind CSS, Bootstrap 5, Responsive UI
                 </span>
               </div>
 

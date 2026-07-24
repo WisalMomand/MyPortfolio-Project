@@ -148,6 +148,26 @@ section {
   color: #000;
 }
 
+/* Hero image column — pushed to the right edge instead of sitting centered */
+.hero-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .hero-right {
+    margin-right: -48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hero-right {
+    justify-content: center;
+  }
+}
+
 .image-wrapper {
   position: relative;
   display: flex;

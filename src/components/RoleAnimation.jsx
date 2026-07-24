@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../styles/RoleAnimation.css";
 
 const roles = [
-  "MERN Stack Developer",
-  "Junior Software Engineer",
+  "Software Engineer",
+  " Full Stack Developer",
   "Backend Developer",
   "React Developer",
 ];

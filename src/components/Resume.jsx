@@ -6,8 +6,8 @@ export default function Resume() {
     <section className="resume-section">
       <div className="resume-container">
         <div className="resume-header">
-          <h2 className="resume-title">Resume</h2>
-          <div className="resume-background-text">Resume</div>
+          <h2 className="resume-title">Summary</h2>
+          <div className="resume-background-text">Summary</div>
         </div>
         
         <p className="resume-description">
@@ -49,13 +49,13 @@ performing CRUD operations, and optimizing database queries for performance
 
         
  <a
-  href="/Muhammad_Wisal_MERN_Stack_Developer_CV.pdf"
+  href="/Muhammad_Wisal_Resume.pdf"
   download
   target="_blank"
   rel="noopener noreferrer"
   className="download-cv-btn"
 >
-  DOWNLOAD CV
+  DOWNLOAD Resume
 </a>
 
 
